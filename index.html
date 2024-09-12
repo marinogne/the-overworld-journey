@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>The OverWorld Journey</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpeg" alt="">
+            <p>Você é um explorador destemido no mundo de Minecraft, decidido a desvendar a lenda de Herobrine, um ser com olhos brancos que aparece e desaparece misteriosamente, deixando destruição em seu rastro. Chegando ao vilarejo, você ouve rumores de que Herobrine se esconde na Floresta ao Norte ou na Mina Abandonada ao Leste.</p>
+            <button class="btn-proximo" data-proximo="1">Ir para a Floresta ao Norte</button>
+            <button class="btn-proximo" data-proximo="2">Explorar a Mina Abandonada ao Leste </button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-passo1.jpg" alt="">
+            <p>Você segue para a Floresta ao Norte, onde a névoa espessa torna a visibilidade difícil. Árvores estão caídas e blocos de terra estão esculpidos em padrões estranhos. Um som constante de passos leves ecoa por entre as árvores, mas sempre que você se vira, não há nada à vista.</p>
+            <button class="btn-proximo" data-proximo="3">Investigar os túneis na floresta</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="img/cenario-passo2.png" alt="">
+            <p>Ao chegar à entrada da mina, você percebe que está coberta por teias de aranha e uma sensação de frio constante. Sons de passos e o tilintar de ferramentas ecoam das profundezas. Uma placa antiga na entrada diz: “Aqueles que buscam a verdade devem estar preparados.”</p>
+            <button class="btn-proximo" data-proximo="4">Seguir o som dos passos na mina</button>
+            <button class="btn-proximo" data-proximo="11">Desistir e voltar para o vilarejo</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Você entra em um dos túneis subterrâneos. As paredes estão cobertas por musgo e há rastros de garras na terra. Após alguns minutos, você encontra um altar feito de obsidiana, com blocos de soul sand e uma vela acesa. Um livro em cima do altar parece ter sido usado recentemente.</p>
+            <button class="btn-proximo" data-proximo="5">Ler o livro no altar</button>
+            <button class="btn-proximo" data-proximo="6">Sair da sala rapidamente</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você segue o som dos passos até uma grande sala iluminada por tochas. No centro, há uma picareta quebrada e uma placa que diz: “Saia enquanto pode”. O vento frio faz as tochas tremerem e a sensação de ser observado é palpável.</p>
+            <button class="btn-proximo" data-proximo="6">Sair da sala rapidamente</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>O livro está repleto de anotações sobre um ritual para “acalmar Herobrine”. Há descrições de encantamentos e ingredientes raros. De repente, você ouve passos rápidos atrás de você e uma sombra se move na parede. A presença de algo sobrenatural é iminente.</p>
+            <button class="btn-proximo" data-proximo="7">Confrontar a figura</button>
+            <button class="btn-proximo" data-proximo="8">Tentar desviar e correr</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você decide sair da sala, mas um bloco de pedra cai, bloqueando a saída. Luzes piscam e você vê um par de olhos brilhando na escuridão. A presença de Herobrine é quase palpável, e a tensão aumenta conforme você procura uma rota alternativa.</p>
+            <button class="btn-proximo" data-proximo="7">Confrontar a figura</button>
+            <button class="btn-proximo" data-proximo="8">Tentar desviar e correr</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você se vira para enfrentar a figura com olhos brilhantes. Herobrine aparece e desaparece rapidamente, sua presença perturbadora faz o ambiente tremer. A batalha é intensa, com Herobrine manipulando o espaço ao seu redor. Cada golpe que você dá parece atravessar apenas o vazio.</p>
+            <button class="btn-proximo" data-proximo="9">Usar o diário para recitar o ritual</button>
+            <button class="btn-proximo" data-proximo="10">Aceitar o destino e encarar Herobrine</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você decide fugir, correndo em direção a uma abertura que parece levar para fora. Enquanto corre, a luz começa a diminuir e você tropeça em uma raiz exposta. Uma mão fria toca seu ombro, e você se vira para ver Herobrine se aproximando.</p>
+            <button class="btn-proximo" data-proximo="10">Aceitar o destino e encarar Herobrine</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Com o coração acelerado, você recita as palavras do livro. O ambiente ao seu redor começa a mudar e Herobrine hesita. Gradualmente, ele desaparece na névoa, deixando você aliviado, mas com a sensação de que ele pode voltar algum dia.</p>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você encara Herobrine diretamente. A escuridão o envolve e o silêncio se torna absoluto. Você sente um frio penetrante e, ao abrir os olhos, se encontra em um vazio interminável, onde Herobrine reina, tornando-se parte da lenda que você buscava.</p>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11.jpeg" alt="imagem steve sem animo">
+            <p>Percebendo que não conseguiria suportar a pressão, você decidiu voltar para o vilarejo e seguir sua vida sem grandes aventuras.</p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
